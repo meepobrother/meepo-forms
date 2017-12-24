@@ -29,7 +29,6 @@ import { UuidModule } from 'meepo-uuid';
 import { MeepoBmapModule } from 'meepo-bmap';
 import { AutoSizeModule } from 'meepo-autosize';
 import { UploaderModule } from 'meepo-uploader';
-import { MeepoCoreServiceModule } from 'meepo-core';
 
 @NgModule({
     declarations: [
@@ -39,8 +38,7 @@ import { MeepoCoreServiceModule } from 'meepo-core';
         CommonModule,
         MeepoBmapModule,
         AutoSizeModule,
-        UploaderModule,
-        MeepoCoreServiceModule
+        UploaderModule
     ],
     exports: [
         ...formsComponents

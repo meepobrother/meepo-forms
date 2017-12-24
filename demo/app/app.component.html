@@ -1,1 +1,11 @@
-<h2 class="title">welcome to use imeepos template form angular!</h2>
+<core-root>
+    <form-root>
+        <form-row title="地址信息">
+            <form-address [widget]="{title:'出发地', tip: '请选择地址'}"></form-address>
+            <form-address [widget]="{title:'目的地', tip: '请选择地址'}"></form-address>
+        </form-row>
+        <form-row>
+            <form-input [widget]="{title:'联系电话', tip: '请输入联系人电话'}"></form-input>
+        </form-row>
+    </form-root>
+</core-root>

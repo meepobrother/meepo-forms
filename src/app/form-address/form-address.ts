@@ -1,0 +1,39 @@
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { BmapAddressSelectService } from 'meepo-bmap';
+import { UuidService } from 'meepo-uuid';
+@Component({
+    selector: 'form-address',
+    templateUrl: './form-address.html',
+    styleUrls: [
+        './form-address.scss'
+    ]
+})
+export class FormAddressComponent implements OnInit {
+    @Input() widget: any = {
+        title: '地址',
+        tip: '请选择地址'
+    }
+    @Input() model: any = {};
+    @Output() modelChange: EventEmitter<any> = new EventEmitter();
+    time: any = new Date().getTime();
+    constructor(
+        public bmap: BmapAddressSelectService,
+        public uuid: UuidService
+    ) {
+        this.time = this.uuid.v1();
+        this.bmap.show$.subscribe(res => {
+            if (res.data) {
+                if(this.time === res.sn){
+                    this.model = res.data;
+                    this.modelChange.emit(res.data);
+                }
+            }
+        });
+        console.log(this.time);
+    }
+    ngOnInit() { }
+
+    selectAddress() {
+        this.bmap.show(this.time);
+    }
+}

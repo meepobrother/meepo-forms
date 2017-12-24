@@ -20,6 +20,7 @@ export const formsComponents = [
 import { UuidModule } from 'meepo-uuid';
 import { MeepoBmapModule } from 'meepo-bmap';
 import { AutoSizeModule } from 'meepo-autosize';
+import { UploaderModule } from 'meepo-uploader';
 @NgModule({
     declarations: [
         ...formsComponents
@@ -27,7 +28,8 @@ import { AutoSizeModule } from 'meepo-autosize';
     imports: [
         CommonModule,
         MeepoBmapModule,
-        AutoSizeModule
+        AutoSizeModule,
+        UploaderModule
     ],
     exports: [
         ...formsComponents

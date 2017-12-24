@@ -13,6 +13,5 @@ export class FormImageComponent implements OnInit {
     @Input() model: any[] = [];
     @Output() modelChange: EventEmitter<any> = new EventEmitter();
     constructor() { }
-
     ngOnInit() { }
 }

@@ -3538,9 +3538,9 @@ media-typer@0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/media-typer/-/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
 
-meepo-autosize@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/meepo-autosize/-/meepo-autosize-1.0.4.tgz#a84b69ec07f3b9bb35042981916aefbd32f2f7e0"
+meepo-autosize@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/meepo-autosize/-/meepo-autosize-1.0.5.tgz#d098a0841a1792fce3da36bf5e962ad48cd0a0c0"
   dependencies:
     "@angular/common" "^5.1.0"
     "@angular/core" "^5.1.0"
@@ -3594,6 +3594,46 @@ meepo-core@^2.6.3:
     "@nestjs/testing" "^4.5.1"
     "@nestjs/websockets" "^4.5.1"
     meepo-xscroll "^1.1.7"
+    mysql "^2.15.0"
+    reflect-metadata "^0.1.10"
+    rxjs "^5.5.5"
+    typeorm "^0.1.9"
+    zone.js "0.8.4"
+
+meepo-core@^2.6.6:
+  version "2.6.6"
+  resolved "https://registry.yarnpkg.com/meepo-core/-/meepo-core-2.6.6.tgz#c1efba5525a51949021dc1e2a7f12b6cdb18cd74"
+  dependencies:
+    "@angular/common" "^5.1.0"
+    "@angular/core" "^5.1.0"
+    "@angular/forms" "^5.1.0"
+    "@angular/platform-browser" "^5.1.0"
+    "@nestjs/common" "^4.5.1"
+    "@nestjs/core" "^4.5.1"
+    "@nestjs/microservices" "^4.5.1"
+    "@nestjs/testing" "^4.5.1"
+    "@nestjs/websockets" "^4.5.1"
+    meepo-xscroll "^1.1.7"
+    mysql "^2.15.0"
+    reflect-metadata "^0.1.10"
+    rxjs "^5.5.5"
+    typeorm "^0.1.9"
+    zone.js "0.8.4"
+
+meepo-uploader@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/meepo-uploader/-/meepo-uploader-1.0.2.tgz#3b00f9488a7db577b06a390f93233758a563339c"
+  dependencies:
+    "@angular/common" "^5.1.0"
+    "@angular/core" "^5.1.0"
+    "@angular/forms" "^5.1.0"
+    "@angular/platform-browser" "^5.1.0"
+    "@nestjs/common" "^4.5.1"
+    "@nestjs/core" "^4.5.1"
+    "@nestjs/microservices" "^4.5.1"
+    "@nestjs/testing" "^4.5.1"
+    "@nestjs/websockets" "^4.5.1"
+    meepo-core "^2.6.6"
     mysql "^2.15.0"
     reflect-metadata "^0.1.10"
     rxjs "^5.5.5"

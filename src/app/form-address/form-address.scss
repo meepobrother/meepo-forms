@@ -1,12 +1,5 @@
-.bt_ic_postal_code {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background-image: url("./bt_ic_postal_code.png");
-    background-size: cover;
-}
-.weui-cell__bd{
-    p{
+.weui-cell__bd {
+    p {
         display: flex;
         flex-direction: row;
         align-items: center;

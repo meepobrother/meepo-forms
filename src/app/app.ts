@@ -4,23 +4,26 @@ import { FormAddressComponent } from './form-address/form-address';
 import { FormRootComponent } from './form-root/form-root';
 import { FormRowComponent } from './form-row/form-row';
 import { FormInputComponent } from './form-input/form-input';
+import { FormTextareaComponent } from './form-textarea/form-textarea';
 
 export const formsComponents = [
     FormAddressComponent,
     FormRootComponent,
     FormRowComponent,
-    FormInputComponent
+    FormInputComponent,
+    FormTextareaComponent
 ];
 import { UuidModule } from 'meepo-uuid';
 import { MeepoBmapModule } from 'meepo-bmap';
-
+import { AutoSizeModule } from 'meepo-autosize';
 @NgModule({
     declarations: [
         ...formsComponents
     ],
     imports: [
         CommonModule,
-        MeepoBmapModule
+        MeepoBmapModule,
+        AutoSizeModule
     ],
     exports: [
         ...formsComponents

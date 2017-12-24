@@ -1,0 +1,9 @@
+form-textarea {
+    position: relative;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    autosize {
+        flex: 1;
+    }
+}

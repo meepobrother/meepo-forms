@@ -1,8 +1,10 @@
 <div class="weui-cell">
     <div class="weui-cell__hd">
-        <label class="weui-label">{{widget.title}}</label>
+        <label class="weui-label">
+            <ng-content></ng-content>
+        </label>
     </div>
     <div class="weui-cell__bd">
-        <input class="weui-input" (change)="_change()" #input [placeholder]="widget.tip">
+        <input class="weui-input" (change)="_change()" #input [placeholder]="tip">
     </div>
 </div>

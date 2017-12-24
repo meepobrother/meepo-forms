@@ -1,9 +1,8 @@
 <a class="weui-cell weui-cell_access">
     <div class="weui-cell__bd">
         <p>
-            <i class="bt_ic_postal_code"></i>
-            {{widget.title}}
+            <ng-content></ng-content>
         </p>
     </div>
-    <div class="weui-cell__ft" (click)="selectAddress()">{{model.title || widget.tip}}</div>
+    <div class="weui-cell__ft" (click)="selectAddress()">{{model.title || tip}}</div>
 </a>

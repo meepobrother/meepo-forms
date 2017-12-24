@@ -9,10 +9,7 @@ import { UuidService } from 'meepo-uuid';
     ]
 })
 export class FormAddressComponent implements OnInit {
-    @Input() widget: any = {
-        title: '地址',
-        tip: '请选择地址'
-    }
+    @Input() tip: any;
     @Input() model: any = {};
     @Output() modelChange: EventEmitter<any> = new EventEmitter();
     time: any = new Date().getTime();

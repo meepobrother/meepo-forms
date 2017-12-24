@@ -1,0 +1,36 @@
+.form_message_icon,
+.form_mobile_icon,
+.form_time_icon,
+.form_user_icon,
+.form_address_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+}
+
+.form_address_icon {
+    background-image: url("./address.png");
+}
+
+.form_message_icon {
+    background-image: url("./message2.png");
+}
+
+.form_mobile_icon {
+    background-image: url("./mobile.png");
+}
+
+.form_time_icon {
+    background-image: url("./time.png");
+}
+
+.form_user_icon {
+    background-image: url("./user2.png");
+}
+
+.weui-label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

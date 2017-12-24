@@ -3,6 +3,7 @@ readonly currentDir=$(cd $(dirname $0); pwd)
 cd ${currentDir}
 rm -rf publish
 cp -r src/app src/.tmp/
+echo 'ts node style'
 node ./style.js
 
 echo 'Compiling to es2015 via Angular compiler'

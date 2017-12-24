@@ -3652,6 +3652,26 @@ meepo-core@^2.6.6:
     typeorm "^0.1.9"
     zone.js "0.8.4"
 
+meepo-core@^2.6.7:
+  version "2.6.7"
+  resolved "https://registry.yarnpkg.com/meepo-core/-/meepo-core-2.6.7.tgz#a41326351838674b06f463da71d70a9db7cef57b"
+  dependencies:
+    "@angular/common" "^5.1.0"
+    "@angular/core" "^5.1.0"
+    "@angular/forms" "^5.1.0"
+    "@angular/platform-browser" "^5.1.0"
+    "@nestjs/common" "^4.5.1"
+    "@nestjs/core" "^4.5.1"
+    "@nestjs/microservices" "^4.5.1"
+    "@nestjs/testing" "^4.5.1"
+    "@nestjs/websockets" "^4.5.1"
+    meepo-xscroll "^1.1.7"
+    mysql "^2.15.0"
+    reflect-metadata "^0.1.10"
+    rxjs "^5.5.5"
+    typeorm "^0.1.9"
+    zone.js "0.8.4"
+
 meepo-uploader@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/meepo-uploader/-/meepo-uploader-1.0.2.tgz#3b00f9488a7db577b06a390f93233758a563339c"

@@ -4,9 +4,7 @@ import { UuidService } from 'meepo-uuid';
 @Component({
     selector: 'form-switch',
     templateUrl: './form-switch.html',
-    styleUrls: [
-        './form-switch.scss'
-    ]
+    styleUrls: ['./form-switch.scss']
 })
 
 export class FormSwitchComponent implements OnInit {

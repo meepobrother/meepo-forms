@@ -4,9 +4,7 @@ import { UuidService } from 'meepo-uuid';
 @Component({
     selector: 'form-address',
     templateUrl: './form-address.html',
-    styleUrls: [
-        './form-address.scss'
-    ]
+    styleUrls: ['./form-address.scss']
 })
 export class FormAddressComponent implements OnInit {
     @Input() tip: any;

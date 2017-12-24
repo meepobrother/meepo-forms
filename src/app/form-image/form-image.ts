@@ -3,9 +3,7 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 @Component({
     selector: 'form-image',
     templateUrl: './form-image.html',
-    styleUrls: [
-        './form-image.scss'
-    ]
+    styleUrls: ['./form-image.scss']
 })
 export class FormImageComponent implements OnInit {
     currentLength: number = 0;

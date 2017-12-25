@@ -3447,9 +3447,9 @@ meepo-uploader@^1.1.0:
     typeorm "^0.1.9"
     zone.js "0.8.4"
 
-meepo-uploader@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/meepo-uploader/-/meepo-uploader-1.1.1.tgz#a6f218e686935a2ccfcfd9fee2e6fd81fb9e6dea"
+meepo-uploader@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/meepo-uploader/-/meepo-uploader-1.1.2.tgz#13fe9db986907e05c6369124cee6ab1dd965728a"
   dependencies:
     "@angular/common" "^5.1.0"
     "@angular/core" "^5.1.0"

@@ -36,9 +36,10 @@ import { UploaderModule } from 'meepo-uploader';
     ],
     imports: [
         CommonModule,
-        MeepoBmapModule,
+        MeepoBmapModule.forRoot(),
         AutoSizeModule,
-        UploaderModule
+        UploaderModule,
+        UuidModule
     ],
     exports: [
         ...formsComponents

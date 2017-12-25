@@ -1,6 +1,6 @@
 {
     "name": "meepo-forms",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "forms for angular",
     "main": "./bundles/meepo.umd.js",
     "module": "./esm5/meepo.js",
@@ -53,7 +53,7 @@
         "@angular/core": "^5.1.0",
         "@angular/platform-browser": "^5.1.0",
         "meepo-autosize": "^1.0.8",
-        "meepo-bmap": "^2.6.3",
+        "meepo-bmap": "^2.8.0",
         "meepo-uploader": "^1.0.7",
         "meepo-uuid": "^1.0.5",
         "mysql": "^2.15.0",

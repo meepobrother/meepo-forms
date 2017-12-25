@@ -36,7 +36,7 @@ import { UploaderModule } from 'meepo-uploader';
     ],
     imports: [
         CommonModule,
-        MeepoBmapModule.forRoot(),
+        MeepoBmapModule,
         AutoSizeModule,
         UploaderModule,
         UuidModule

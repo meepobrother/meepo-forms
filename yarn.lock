@@ -3335,8 +3335,8 @@ meepo-ua@>=1.0.0:
     zone.js "0.8.4"
 
 meepo-uploader@>=1.2.3:
-  version "1.2.6"
-  resolved "https://registry.yarnpkg.com/meepo-uploader/-/meepo-uploader-1.2.6.tgz#088b6931884617bbbc0ba5e4d49cdcfd4421cb5d"
+  version "1.2.7"
+  resolved "https://registry.yarnpkg.com/meepo-uploader/-/meepo-uploader-1.2.7.tgz#b3a42531d8174a4f4b784e714684f07e2f7f9c55"
   dependencies:
     "@angular/common" "5.2.0-beta.1"
     "@angular/core" "5.2.0-beta.1"

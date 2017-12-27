@@ -4,7 +4,7 @@
             <ng-content></ng-content>
         </p>
     </div>
-    <div class="weui-cell__ft" (click)="selectAddress()">{{model.title || tip}}</div>
+    <div class="weui-cell__ft" (click)="selectAddress()">{{model.title || model.address || tip}}</div>
 </a>
 <form-textarea>
     详细地址

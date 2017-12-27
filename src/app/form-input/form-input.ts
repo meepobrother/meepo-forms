@@ -1,4 +1,8 @@
-import { Component, OnInit, ViewEncapsulation, Input, Output, EventEmitter, ViewChild, ElementRef } from '@angular/core';
+import {
+    Component, OnInit, ViewEncapsulation, Input,
+    Output, EventEmitter, ViewChild, ElementRef,
+    Renderer2
+} from '@angular/core';
 
 @Component({
     selector: 'form-input',
@@ -10,7 +14,7 @@ export class FormInputComponent implements OnInit {
     @Input() tip: '请输入内容'
     @Input()
     set model(val: string) {
-        if(val){
+        if (val) {
             this._input.nativeElement.value = val;
         }
     }
@@ -19,12 +23,25 @@ export class FormInputComponent implements OnInit {
         value = value || '';
         return value;
     }
+
+    _type: string = 'text';
+    @Input()
+    set type(val: string) {
+        this._type = val;
+    }
+    get type() {
+        return this._type;
+    }
     @Output() modelChange: EventEmitter<any> = new EventEmitter();
     @ViewChild('input') _input: ElementRef;
     constructor() { }
     ngOnInit() { }
-    _change(){
+    _change() {
         this.model = this._input.nativeElement.value;
         this.modelChange.emit(this.model);
+    }
+
+    _changeReal(){
+        
     }
 }

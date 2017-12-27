@@ -5,6 +5,6 @@
         </label>
     </div>
     <div class="weui-cell__bd">
-        <input class="weui-input" (change)="_change()" #input [placeholder]="tip">
+        <input class="weui-input" [attr.type]="type" (change)="_change()" #input [placeholder]="tip">
     </div>
 </div>

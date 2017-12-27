@@ -1,0 +1,9 @@
+<label class="weui-cell weui-check__label" [attr.for]="id">
+    <div class="weui-cell__bd">
+        <ng-content></ng-content>
+    </div>
+    <div class="weui-cell__ft">
+        <input type="radio" #radio class="weui-check" [attr.name]="name" (change)="_change()" [attr.id]="id">
+        <span class="weui-icon-checked"></span>
+    </div>
+</label>

@@ -9,19 +9,19 @@ form-row {
         padding-left: 30px;
         line-height: 44px;
         height: 44px;
-        &.warning{
+        &.warning {
             &:after {
                 background-color: orangered;
                 color: orangered;
             }
         }
-        &.success{
+        &.success {
             &:after {
                 background-color: olivedrab;
                 color: olivedrab;
             }
         }
-        &.info{
+        &.info {
             &:after {
                 background-color: pink;
                 color: pink;
@@ -39,6 +39,15 @@ form-row {
             color: #ccc;
             transform: scaleY(.5);
         }
+    }
+    &.noLine {
+        &:after {
+            display: none;
+            visibility: hidden;
+        }
+    }
+    &.pb10 {
+        padding-bottom: 10px;
     }
     &:after {
         content: " ";

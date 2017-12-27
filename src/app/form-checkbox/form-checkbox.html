@@ -1,11 +1,3 @@
-<div class="weui-cells weui-cells_checkbox" *ngFor="let item of items">
-    <label class="weui-cell weui-check__label" [attr.for]="item.id">
-        <div class="weui-cell__hd">
-            <input type="checkbox" class="weui-check" [attr.id]="item.id" [attr.checked]="item.active">
-            <i class="weui-icon-checked"></i>
-        </div>
-        <div class="weui-cell__bd">
-            <p>{{item.title}}></p>
-        </div>
-    </label>
+<div class="weui-cells weui-cells_checkbox">
+    <ng-content></ng-content>
 </div>

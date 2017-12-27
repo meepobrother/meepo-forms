@@ -8,7 +8,11 @@ import { FormTextareaComponent } from './form-textarea/form-textarea';
 import { FormImageComponent } from './form-image/form-image';
 
 import { FormRadioComponent } from './form-radio/form-radio';
+import { FormRadioItemComponent } from './form-radio/form-radio-item/form-radio-item';
+
 import { FormCheckboxComponent } from './form-checkbox/form-checkbox';
+import { FormCheckboxItemComponent } from './form-checkbox/form-checkbox-item/form-checkbox-item';
+
 import { FormSelectComponent } from './form-select/form-select';
 import { FormSwitchComponent } from './form-switch/form-switch';
 
@@ -20,9 +24,11 @@ export const formsComponents = [
     FormTextareaComponent,
     FormImageComponent,
     FormRadioComponent,
+    FormRadioItemComponent,
     FormCheckboxComponent,
     FormSelectComponent,
-    FormSwitchComponent
+    FormSwitchComponent,
+    FormCheckboxItemComponent
 ];
 
 import { UuidModule } from 'meepo-uuid';

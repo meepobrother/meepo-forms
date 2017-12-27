@@ -1,11 +1,3 @@
-<div class="weui-cells weui-cells_radio">
-    <label class="weui-cell weui-check__label" [attr.for]="item.id" *ngFor="let item of items">
-        <div class="weui-cell__bd">
-            <p>{{item.title}}</p>
-        </div>
-        <div class="weui-cell__ft">
-            <input type="radio" class="weui-check" name="radio1" [attr.id]="item.id">
-            <span class="weui-icon-checked"></span>
-        </div>
-    </label>
+<div class="weui-cells weui-cells_radio" >
+    <ng-content></ng-content>
 </div>

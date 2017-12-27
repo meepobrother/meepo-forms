@@ -5,7 +5,7 @@
         </label>
     </div>
     <div class="weui-cell__bd">
-        <select class="weui-select">
+        <select class="weui-select" (change)="_change($event)">
             <option *ngFor="let item of items" [attr.selected]="item.active" [attr.value]="item.value">{{item.title}}</option>
         </select>
     </div>

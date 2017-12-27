@@ -11,4 +11,8 @@ export class FormSelectComponent implements OnInit {
     constructor() { }
 
     ngOnInit() { }
+
+    _change(e: any){
+        console.log(e.target.value);
+    }
 }

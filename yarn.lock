@@ -3234,9 +3234,9 @@ meepo-autosize@>=1.0.9:
     rxjs "^5.5.5"
     zone.js "0.8.4"
 
-meepo-axios@>=1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/meepo-axios/-/meepo-axios-1.2.0.tgz#66d4c415917e7bfcef3173450d71caa052ea3f28"
+meepo-axios@>=1.2.0, meepo-axios@>=1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/meepo-axios/-/meepo-axios-1.2.1.tgz#09ff71798c2adb04f192c5ec20d99322e0fe7d4b"
   dependencies:
     "@angular/common" "5.2.0-beta.1"
     "@angular/core" "5.2.0-beta.1"
@@ -3261,8 +3261,8 @@ meepo-base64@^1.1.1:
     zone.js "0.8.4"
 
 meepo-bmap@>=2.8.2:
-  version "3.1.5"
-  resolved "https://registry.yarnpkg.com/meepo-bmap/-/meepo-bmap-3.1.5.tgz#34e720059e04742d648536a13f0fd0bab23d4476"
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/meepo-bmap/-/meepo-bmap-3.2.1.tgz#b14b75970b2d1cbe211824f28d8bcd1349f50cf4"
   dependencies:
     "@angular/common" "5.2.0-beta.1"
     "@angular/core" "5.2.0-beta.1"
@@ -3275,7 +3275,7 @@ meepo-bmap@>=2.8.2:
     store "^2.0.12"
     zone.js "0.8.4"
 
-meepo-core@>=2.9.4, meepo-core@>=2.9.5:
+meepo-core@>=2.9.4, meepo-core@>=2.9.5, meepo-core@>=3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/meepo-core/-/meepo-core-3.0.4.tgz#e46ebcee28830da5d81b6dd2141ea46df4ac74e7"
   dependencies:
@@ -3300,12 +3300,14 @@ meepo-core@^2.9.4:
     zone.js "0.8.4"
 
 meepo-jssdk@>=1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/meepo-jssdk/-/meepo-jssdk-1.0.2.tgz#5636854c2fdf1e265b63199a85f7e87d96e0e590"
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/meepo-jssdk/-/meepo-jssdk-1.0.7.tgz#c86a92942b2cf3053db5ff386b680c3e3d69d85d"
   dependencies:
     "@angular/common" "5.2.0-beta.1"
     "@angular/core" "5.2.0-beta.1"
     "@angular/forms" "5.2.0-beta.1"
+    meepo-axios ">=1.2.1"
+    meepo-core ">=3.0.4"
     reflect-metadata "^0.1.10"
     rxjs "^5.5.5"
     zone.js "0.8.4"
@@ -3335,8 +3337,8 @@ meepo-ua@>=1.0.0:
     zone.js "0.8.4"
 
 meepo-uploader@>=1.2.3:
-  version "1.2.7"
-  resolved "https://registry.yarnpkg.com/meepo-uploader/-/meepo-uploader-1.2.7.tgz#b3a42531d8174a4f4b784e714684f07e2f7f9c55"
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/meepo-uploader/-/meepo-uploader-1.5.3.tgz#f5b97a5fc8ece838666f7056b2323999e4223a38"
   dependencies:
     "@angular/common" "5.2.0-beta.1"
     "@angular/core" "5.2.0-beta.1"
@@ -3512,8 +3514,8 @@ mkdirp@0.5.1, mkdirp@0.5.x, "mkdirp@>=0.5 0", mkdirp@^0.5.0, mkdirp@^0.5.1, mkdi
     minimist "0.0.8"
 
 mobile-select@^1.0.10:
-  version "1.0.10"
-  resolved "https://registry.yarnpkg.com/mobile-select/-/mobile-select-1.0.10.tgz#c7a918a21a00bec6de6614f7b9ae39634a50c673"
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/mobile-select/-/mobile-select-1.0.11.tgz#189b0127003bd3621a880980d41186fd7e707ad1"
 
 moment-timezone@^0.5.x:
   version "0.5.14"

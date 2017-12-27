@@ -40,7 +40,6 @@ export class FormRadioComponent implements OnInit, AfterContentInit {
     ngAfterContentInit(){
         this.items.map(item=>{
             item.setName(this.name);
-            console.log(item.model, this.model);
             if(this._model === item.model){
                 item.setActive();
             }

@@ -25,7 +25,7 @@ export class FormSwitchComponent implements OnInit {
             this.setUnActive();
         }
     }
-    @Input() modelChange: EventEmitter<any> = new EventEmitter();
+    @Output() modelChange: EventEmitter<any> = new EventEmitter();
 
     id: string;
     @ViewChild('checkbox') checkbox: ElementRef;
@@ -40,10 +40,10 @@ export class FormSwitchComponent implements OnInit {
     ngOnInit() { }
 
     _change() {
-        this.model = !this.model;
-        this.modelChange.emit(this.model);
+        this._model = !this._model;
+        this.modelChange.emit(this._model);
         this.cd.markForCheck();
-        if (this.model) {
+        if (this._model) {
             this.setActive();
         } else {
             this.setUnActive();

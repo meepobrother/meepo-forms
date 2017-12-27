@@ -3,9 +3,8 @@
         <ng-content></ng-content>
     </div>
     <div class="weui-cell__ft">
-        <label [attr.for]="id" class="weui-switch-cp">
-            <input [attr.id]="id" class="weui-switch-cp__input" (change)="_change($event)" type="checkbox" checked="true" *ngIf="model.active">
-            <input [attr.id]="id" class="weui-switch-cp__input" (change)="_change($event)" type="checkbox" *ngIf="!model.active">
+        <label [attr.for]="id" class="weui-switch-cp" (click)="_change()" >
+            <input [attr.id]="id" class="weui-switch-cp__input" #checkbox type="checkbox" >
             <div class="weui-switch-cp__box"></div>
         </label>
     </div>

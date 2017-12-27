@@ -2,7 +2,7 @@ import {
     Component, OnInit, Input,
     Output, EventEmitter,
     ViewEncapsulation, ChangeDetectionStrategy,
-    ChangeDetectorRef
+    ChangeDetectorRef, ViewChild, ElementRef, Renderer2
 } from '@angular/core';
 import { UuidService } from 'meepo-uuid';
 
@@ -15,27 +15,50 @@ import { UuidService } from 'meepo-uuid';
 })
 
 export class FormSwitchComponent implements OnInit {
-    @Input() model: any = {
-        active: false
-    };
-
+    _model: boolean = false;
+    @Input()
+    set model(val: boolean) {
+        this._model = val;
+        if (this._model) {
+            this.setActive();
+        } else {
+            this.setUnActive();
+        }
+    }
     @Input() modelChange: EventEmitter<any> = new EventEmitter();
 
     id: string;
+    @ViewChild('checkbox') checkbox: ElementRef;
     constructor(
         public uuid: UuidService,
-        public cd: ChangeDetectorRef
+        public cd: ChangeDetectorRef,
+        public render: Renderer2
     ) {
         this.id = this.uuid.v1();
     }
 
     ngOnInit() { }
 
-    _change(e: any) {
-        this.model.active = !this.model.active;
-        this.modelChange.emit({
-            active: e.target.value
-        });
+    _change() {
+        this.model = !this.model;
+        this.modelChange.emit(this.model);
         this.cd.markForCheck();
+        if (this.model) {
+            this.setActive();
+        } else {
+            this.setUnActive();
+        }
+    }
+
+    setActive() {
+        if (this.checkbox) {
+            this.render.setAttribute(this.checkbox.nativeElement, 'checked', 'true');
+        }
+    }
+
+    setUnActive() {
+        if (this.checkbox) {
+            this.render.removeAttribute(this.checkbox.nativeElement, 'checked');
+        }
     }
 }

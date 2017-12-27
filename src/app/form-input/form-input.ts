@@ -42,6 +42,7 @@ export class FormInputComponent implements OnInit {
     }
 
     _changeReal(){
-        
+        this.model = this._input.nativeElement.value;
+        this.modelChange.emit(this.model);
     }
 }

@@ -17,7 +17,9 @@ export class FormSelectComponent implements OnInit {
         return this._items;
     }
     @Output() modelChange: EventEmitter<any> = new EventEmitter();
-    active: any;
+    active: any = {
+        value: 0
+    };
     constructor() { }
 
     ngOnInit() { }

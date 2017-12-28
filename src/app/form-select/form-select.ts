@@ -11,7 +11,9 @@ export class FormSelectComponent implements OnInit {
     _items: any[] = [];
     @Input()
     set items(val: any[]) {
-        this._items = val;
+        if (val) {
+            this._items = val;
+        }
         this.setDefault();
     }
     get items() {
@@ -33,7 +35,6 @@ export class FormSelectComponent implements OnInit {
                 this.active = res;
             }
         });
-        console.log(this.active);
         this.cd.markForCheck();
     }
 

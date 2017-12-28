@@ -430,10 +430,6 @@ autoprefixer@^7.2.3:
     postcss "^6.0.14"
     postcss-value-parser "^3.2.3"
 
-autosize@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/autosize/-/autosize-4.0.0.tgz#7a0599b1ba84d73bd7589b0d9da3870152c69237"
-
 aws-sign2@~0.6.0:
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/aws-sign2/-/aws-sign2-0.6.0.tgz#14342dd38dbcc94d0e5b87d763cd63612c0e794f"
@@ -3224,13 +3220,12 @@ media-typer@0.3.0:
   resolved "https://registry.yarnpkg.com/media-typer/-/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
 
 meepo-autosize@>=1.0.9:
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/meepo-autosize/-/meepo-autosize-1.0.9.tgz#e101dd246bd68166a912e39f38c4cc46b7e59c0d"
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/meepo-autosize/-/meepo-autosize-1.2.0.tgz#a1dacddbfb9b283a714d09b0fea971e80ec5512e"
   dependencies:
     "@angular/common" "5.2.0-beta.1"
     "@angular/core" "5.2.0-beta.1"
     "@angular/platform-browser" "5.2.0-beta.1"
-    autosize "^4.0.0"
     reflect-metadata "^0.1.10"
     rxjs "^5.5.5"
     zone.js "0.8.4"
@@ -3263,8 +3258,8 @@ meepo-base64@^1.1.1:
     zone.js "0.8.4"
 
 meepo-bmap@>=2.8.2:
-  version "3.2.4"
-  resolved "https://registry.yarnpkg.com/meepo-bmap/-/meepo-bmap-3.2.4.tgz#6a53e818c4eae3749918ad1b0a4c7745473a0e3e"
+  version "3.2.7"
+  resolved "https://registry.yarnpkg.com/meepo-bmap/-/meepo-bmap-3.2.7.tgz#816ac36ac19785282b874ee3a2340cb312bc189b"
   dependencies:
     "@angular/common" "5.2.0-beta.1"
     "@angular/core" "5.2.0-beta.1"
@@ -3278,8 +3273,8 @@ meepo-bmap@>=2.8.2:
     zone.js "0.8.4"
 
 meepo-core@>=2.9.4, meepo-core@>=2.9.5, meepo-core@>=3.0.4:
-  version "3.0.7"
-  resolved "https://registry.yarnpkg.com/meepo-core/-/meepo-core-3.0.7.tgz#426088a4bea9b4986e2b4ea857dc110c699f5097"
+  version "3.0.9"
+  resolved "https://registry.yarnpkg.com/meepo-core/-/meepo-core-3.0.9.tgz#5849022c857d0a0adc94c6dfbcbcde472469b636"
   dependencies:
     "@angular/common" "5.2.0-beta.1"
     "@angular/core" "5.2.0-beta.1"
@@ -3354,8 +3349,8 @@ meepo-ua@>=1.0.0:
     zone.js "0.8.4"
 
 meepo-uploader@>=1.2.3:
-  version "1.5.4"
-  resolved "https://registry.yarnpkg.com/meepo-uploader/-/meepo-uploader-1.5.4.tgz#057e3aa04b8c3de61e5e63184d6ca25b062b984d"
+  version "1.5.5"
+  resolved "https://registry.yarnpkg.com/meepo-uploader/-/meepo-uploader-1.5.5.tgz#95e9642dc601056b1cd5e1dc9116b211c150681f"
   dependencies:
     "@angular/common" "5.2.0-beta.1"
     "@angular/core" "5.2.0-beta.1"

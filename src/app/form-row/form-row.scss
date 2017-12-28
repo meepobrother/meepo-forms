@@ -1,64 +1,15 @@
+form-row+form-row {
+    margin-top: 10px;
+}
+
 form-row {
+    margin-top: 0px;
+    line-height: 1.47058824;
+    font-size: 17px;
+    overflow: hidden;
     position: relative;
     display: block;
-    background-color: #fff;
-    overflow: hidden;
-    .weui-cells__title {
-        margin: 0px;
-        position: relative;
-        padding-left: 30px;
-        line-height: 44px;
-        height: 44px;
-        &.warning {
-            &:after {
-                background-color: orangered;
-                color: orangered;
-            }
-        }
-        &.success {
-            &:after {
-                background-color: olivedrab;
-                color: olivedrab;
-            }
-        }
-        &.info {
-            &:after {
-                background-color: pink;
-                color: pink;
-            }
-        }
-        &:after {
-            content: " ";
-            display: block;
-            position: absolute;
-            bottom: 0px;
-            top: 0px;
-            left: 20px;
-            width: 3px;
-            background-color: #ccc;
-            color: #ccc;
-            transform: scaleY(.5);
-        }
-    }
-    &.noLine {
-        &:after {
-            display: none;
-            visibility: hidden;
-        }
-    }
-    &.pb10 {
-        padding-bottom: 10px;
-    }
-    &:after {
-        content: " ";
-        display: block;
-        position: absolute;
-        bottom: 0px;
-        left: 10px;
-        right: 10px;
-        height: 1px;
-        background-color: #ccc;
-        color: #ccc;
-        transform: scaleY(.5);
+    .weui-cell {
+        background-color: #fff;
     }
 }

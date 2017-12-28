@@ -24,7 +24,6 @@ export class FormAddressComponent implements OnInit {
                 }
             }
         });
-        console.log(this.time);
     }
     ngOnInit() { }
 

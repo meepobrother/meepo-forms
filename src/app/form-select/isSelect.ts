@@ -4,6 +4,7 @@ import { Directive, Input, ElementRef, Renderer2 } from '@angular/core';
 export class isSelectDirective {
     @Input()
     set isSelect(val: boolean) {
+        console.log(this.ele);
         if (this.ele) {
             if (val) {
                 this.render.setAttribute(this.ele.nativeElement, 'selected', 'selected');

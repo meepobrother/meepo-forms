@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
     selector: 'form-select',
@@ -8,11 +8,18 @@ import { Component, OnInit, Input } from '@angular/core';
 
 export class FormSelectComponent implements OnInit {
     @Input() items: any[] = [];
+
+    @Output() modelChange: EventEmitter<any> = new EventEmitter();
     constructor() { }
 
     ngOnInit() { }
 
-    _change(e: any){
-        console.log(e.target.value);
+    _change(e: any) {
+        let value = e.target.value;
+        this.items.map(res => {
+            if (res.value === value) { 
+                this.modelChange.next(res);
+            }
+        });
     }
 }

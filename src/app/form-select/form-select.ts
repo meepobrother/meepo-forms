@@ -13,7 +13,6 @@ export class FormSelectComponent implements OnInit {
     set items(val: any[]) {
         if (val) {
             this._items = val;
-            this.cd.markForCheck();
         }
         this.setDefault();
     }

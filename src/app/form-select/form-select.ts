@@ -36,7 +36,8 @@ export class FormSelectComponent implements OnInit {
                 this.active = res;
             }
         });
-        this.cd.markForCheck();
+        console.log(this._items);
+        this.cd.detectChanges();
     }
 
     _change(e: any) {

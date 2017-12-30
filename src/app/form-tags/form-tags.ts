@@ -7,7 +7,6 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
         './form-tags.scss'
     ]
 })
-
 export class FormTagsComponent implements OnInit {
     @Input() items: any[] = [];
     @Output() onSelect: EventEmitter<any> = new EventEmitter()

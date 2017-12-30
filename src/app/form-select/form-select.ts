@@ -36,6 +36,7 @@ export class FormSelectComponent implements OnInit {
             }
         });
         console.log(this._items);
+        console.log(this.active);
         this.cd.detectChanges();
     }
 

@@ -15,8 +15,9 @@ import { FormCheckboxItemComponent } from './form-checkbox/form-checkbox-item/fo
 
 import { FormSelectComponent } from './form-select/form-select';
 import { isSelectDirective } from './form-select/isSelect';
-
 import { FormSwitchComponent } from './form-switch/form-switch';
+import { FormTagsComponent } from './form-tags/form-tags';
+
 
 export const formsComponents = [
     FormAddressComponent,
@@ -31,7 +32,8 @@ export const formsComponents = [
     FormSelectComponent,
     FormSwitchComponent,
     FormCheckboxItemComponent,
-    isSelectDirective
+    isSelectDirective,
+    FormTagsComponent
 ];
 
 import { UuidModule } from 'meepo-uuid';

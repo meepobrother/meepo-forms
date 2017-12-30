@@ -3009,8 +3009,8 @@ meepo-base64@>=1.1.2:
     zone.js "0.8.4"
 
 meepo-bmap@>=2.8.2:
-  version "3.3.5"
-  resolved "https://registry.yarnpkg.com/meepo-bmap/-/meepo-bmap-3.3.5.tgz#504f4756d942e6f90fa57fe8d284cf42b953a281"
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/meepo-bmap/-/meepo-bmap-3.5.0.tgz#5a256ed24958fc251f7ffd0afb7758aef7bfc746"
   dependencies:
     "@angular/common" "5.2.0-beta.1"
     "@angular/core" "5.2.0-beta.1"

@@ -11,6 +11,7 @@ export class FormAddressComponent implements OnInit {
     @Input() model: any = {};
     @Output() modelChange: EventEmitter<any> = new EventEmitter();
     time: any = new Date().getTime();
+    @Output() onSelect: EventEmitter<any> = new EventEmitter();
     constructor(
         public bmap: BmapAddressSelectService,
         public uuid: UuidService
@@ -28,6 +29,6 @@ export class FormAddressComponent implements OnInit {
     ngOnInit() { }
 
     selectAddress() {
-        this.bmap.show(this.time);
+        this.onSelect.emit();
     }
 }

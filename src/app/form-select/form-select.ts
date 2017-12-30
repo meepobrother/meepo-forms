@@ -12,6 +12,7 @@ export class FormSelectComponent implements OnInit {
     set items(val: any[]) {
         if (val) {
             this._items = val;
+            this.cd.markForCheck();
         }
         this.setDefault();
     }
@@ -34,7 +35,7 @@ export class FormSelectComponent implements OnInit {
                 this.active = res;
             }
         });
-        console.log(this._items);
+        this.cd.markForCheck();
     }
 
     _change(e: any) {

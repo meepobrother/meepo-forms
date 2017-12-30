@@ -3,8 +3,7 @@ import { Component, OnInit, Input, Output, EventEmitter, ChangeDetectorRef, Chan
 @Component({
     selector: 'form-select',
     templateUrl: './form-select.html',
-    styleUrls: ['./form-select.scss'],
-    changeDetection: ChangeDetectionStrategy.OnPush
+    styleUrls: ['./form-select.scss']
 })
 
 export class FormSelectComponent implements OnInit {
@@ -35,7 +34,7 @@ export class FormSelectComponent implements OnInit {
                 this.active = res;
             }
         });
-        this.cd.detectChanges();
+        console.log(this._items);
     }
 
     _change(e: any) {

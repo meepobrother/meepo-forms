@@ -12,4 +12,8 @@ export class FormImageComponent implements OnInit {
     @Output() modelChange: EventEmitter<any> = new EventEmitter();
     constructor() { }
     ngOnInit() { }
+
+    onUploader(e: any) {
+        this.modelChange.emit(e);
+    }
 }

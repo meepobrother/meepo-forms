@@ -667,11 +667,11 @@ browserslist@^1.3.6, browserslist@^1.5.2, browserslist@^1.7.6:
     electron-to-chromium "^1.2.7"
 
 browserslist@^2.10.0:
-  version "2.10.0"
-  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-2.10.0.tgz#bac5ee1cc69ca9d96403ffb8a3abdc5b6aed6346"
+  version "2.10.1"
+  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-2.10.1.tgz#f9dc692b79004a78ec9ba0d012c54de44cc6d7e4"
   dependencies:
-    caniuse-lite "^1.0.30000780"
-    electron-to-chromium "^1.3.28"
+    caniuse-lite "^1.0.30000784"
+    electron-to-chromium "^1.3.30"
 
 buffer-indexof@^1.0.0:
   version "1.1.1"
@@ -762,7 +762,7 @@ caniuse-db@^1.0.30000529, caniuse-db@^1.0.30000634, caniuse-db@^1.0.30000639:
   version "1.0.30000784"
   resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000784.tgz#1be95012d9489c7719074f81aee57dbdffe6361b"
 
-caniuse-lite@^1.0.30000780, caniuse-lite@^1.0.30000783:
+caniuse-lite@^1.0.30000783, caniuse-lite@^1.0.30000784:
   version "1.0.30000784"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000784.tgz#129ced74e9a1280a441880b6cd2bce30ef59e6c0"
 
@@ -1466,7 +1466,7 @@ electron-releases@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/electron-releases/-/electron-releases-2.1.0.tgz#c5614bf811f176ce3c836e368a0625782341fd4e"
 
-electron-to-chromium@^1.2.7, electron-to-chromium@^1.3.28:
+electron-to-chromium@^1.2.7, electron-to-chromium@^1.3.30:
   version "1.3.30"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.30.tgz#9666f532a64586651fc56a72513692e820d06a80"
   dependencies:
@@ -2984,8 +2984,8 @@ meepo-autosize@>=1.0.9:
     zone.js "0.8.4"
 
 meepo-axios@>=1.2.0, meepo-axios@>=1.2.1:
-  version "1.2.9"
-  resolved "https://registry.yarnpkg.com/meepo-axios/-/meepo-axios-1.2.9.tgz#cb305f99c0c64566f34e08b006f0c7c5255befe2"
+  version "1.3.7"
+  resolved "https://registry.yarnpkg.com/meepo-axios/-/meepo-axios-1.3.7.tgz#54e1a15550e1a673d927ac76ac8a6e4510713582"
   dependencies:
     "@angular/common" "5.2.0-beta.1"
     "@angular/core" "5.2.0-beta.1"
@@ -3010,8 +3010,8 @@ meepo-base64@>=1.1.2:
     zone.js "0.8.4"
 
 meepo-bmap@>=3.5.1:
-  version "3.5.2"
-  resolved "https://registry.yarnpkg.com/meepo-bmap/-/meepo-bmap-3.5.2.tgz#8c49af6ac0a6e1f036faa47cb195081ec6269b8c"
+  version "3.6.5"
+  resolved "https://registry.yarnpkg.com/meepo-bmap/-/meepo-bmap-3.6.5.tgz#30d9718595ce701a6d4b2e812341b7d85cadcc02"
   dependencies:
     "@angular/common" "5.2.0-beta.1"
     "@angular/core" "5.2.0-beta.1"
@@ -3020,13 +3020,14 @@ meepo-bmap@>=3.5.1:
     meepo-core ">=2.9.5"
     meepo-picker ">=1.0.8"
     meepo-store ">=1.0.0"
+    meepo-xscroll "^1.3.6"
     reflect-metadata "^0.1.10"
     rxjs "^5.5.0"
     zone.js "0.8.4"
 
 meepo-core@>=2.9.4, meepo-core@>=2.9.5, meepo-core@>=3.0.4, meepo-core@>=3.1.3:
-  version "3.1.6"
-  resolved "https://registry.yarnpkg.com/meepo-core/-/meepo-core-3.1.6.tgz#98d2ca102439bd1b7de9a6c34c48a32e096ffbc9"
+  version "3.2.4"
+  resolved "https://registry.yarnpkg.com/meepo-core/-/meepo-core-3.2.4.tgz#42dc936a1cddce80342d6dc58a299154eed27454"
   dependencies:
     "@angular/common" "5.2.0-beta.1"
     "@angular/core" "5.2.0-beta.1"
@@ -3038,8 +3039,8 @@ meepo-core@>=2.9.4, meepo-core@>=2.9.5, meepo-core@>=3.0.4, meepo-core@>=3.1.3:
     zone.js "0.8.4"
 
 meepo-jssdk@>=1.0.2:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/meepo-jssdk/-/meepo-jssdk-1.1.0.tgz#0f29c40ce620c84fc25a4338b223f0f966ad6463"
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/meepo-jssdk/-/meepo-jssdk-1.1.1.tgz#c170819eef6fb1710f3811e404ab04765cb0f1ba"
   dependencies:
     "@angular/common" "5.2.0-beta.1"
     "@angular/core" "5.2.0-beta.1"
@@ -3125,9 +3126,9 @@ meepo-uuid@>=1.0.8, meepo-uuid@>=1.1.1:
     rxjs "^5.5.5"
     zone.js "0.8.4"
 
-meepo-xscroll@>=1.2.9, meepo-xscroll@>=1.3.0:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/meepo-xscroll/-/meepo-xscroll-1.3.1.tgz#6c38bcd5f63207ed391e6b188443814710c2adc0"
+meepo-xscroll@>=1.2.9, meepo-xscroll@>=1.3.0, meepo-xscroll@^1.3.6:
+  version "1.3.6"
+  resolved "https://registry.yarnpkg.com/meepo-xscroll/-/meepo-xscroll-1.3.6.tgz#33082a67e4667091e29033bda7d1f431e7d1d35e"
   dependencies:
     "@angular/common" "5.2.0-beta.1"
     "@angular/core" "5.2.0-beta.1"

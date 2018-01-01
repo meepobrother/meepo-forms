@@ -16,10 +16,13 @@ export class FormTextareaComponent implements OnInit {
     @Input() max: number = 200;
     @ViewChild('textarea') _textarea: ElementRef;
     constructor() { }
-    ngOnInit() { }
+    ngOnInit() {
+        this._textarea.nativeElement.value = this.model;
+    }
 
     _change() {
         this.model = this._textarea.nativeElement.value;
+        this.model = this.model.substr(0, this.max);
         this.modelChange.emit(this.model);
     }
 }

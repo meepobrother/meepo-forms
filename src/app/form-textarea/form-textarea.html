@@ -6,7 +6,7 @@
         <div class="weui-cell__bd">
             <textarea class="weui-textarea" #textarea (change)="_change()" autoSize="80" [attr.placeholder]="tip"></textarea>
             <div class="weui-textarea-counter">
-                <span>0</span>/{{max}}
+                <span>{{model.length}}</span>/{{max}}
             </div>
         </div>
     </div>

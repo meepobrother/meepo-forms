@@ -3100,8 +3100,8 @@ meepo-ua@>=1.0.0:
     zone.js "0.8.4"
 
 meepo-uploader@>=1.2.3:
-  version "1.5.9"
-  resolved "https://registry.yarnpkg.com/meepo-uploader/-/meepo-uploader-1.5.9.tgz#75ec76b169f40d5caedd88133cbbdabb210dc54e"
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/meepo-uploader/-/meepo-uploader-1.6.0.tgz#d55a14bb016dd3f0c642699aa88d6a45b80ab8b1"
   dependencies:
     "@angular/common" "5.2.0-beta.1"
     "@angular/core" "5.2.0-beta.1"
@@ -3127,8 +3127,8 @@ meepo-uuid@>=1.0.8, meepo-uuid@>=1.1.1:
     zone.js "0.8.4"
 
 meepo-xscroll@>=1.2.9, meepo-xscroll@>=1.3.0, meepo-xscroll@^1.3.6:
-  version "1.3.6"
-  resolved "https://registry.yarnpkg.com/meepo-xscroll/-/meepo-xscroll-1.3.6.tgz#33082a67e4667091e29033bda7d1f431e7d1d35e"
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/meepo-xscroll/-/meepo-xscroll-1.4.2.tgz#5f20e80ea0cbf79c95c419aba45e239fce7cbcb9"
   dependencies:
     "@angular/common" "5.2.0-beta.1"
     "@angular/core" "5.2.0-beta.1"

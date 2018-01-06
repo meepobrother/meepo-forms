@@ -91,12 +91,6 @@
   optionalDependencies:
     node-sass "^4.3.0"
 
-"@angular/common@5.2.0-beta.1":
-  version "5.2.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@angular/common/-/common-5.2.0-beta.1.tgz#4d4a5c191faff678cbbb20e9366ce47f726429a2"
-  dependencies:
-    tslib "^1.7.1"
-
 "@angular/common@>=5.1.2":
   version "5.1.3"
   resolved "https://registry.yarnpkg.com/@angular/common/-/common-5.1.3.tgz#db517c00a95f72885eb2091098eaed4f95494a63"
@@ -118,21 +112,9 @@
   dependencies:
     tslib "^1.7.1"
 
-"@angular/core@5.2.0-beta.1":
-  version "5.2.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@angular/core/-/core-5.2.0-beta.1.tgz#14984b81dd31ae35fe73d8063710eb4007756921"
-  dependencies:
-    tslib "^1.7.1"
-
 "@angular/core@>=5.1.2":
   version "5.1.3"
   resolved "https://registry.yarnpkg.com/@angular/core/-/core-5.1.3.tgz#b739f69834c344285250a384d0c203dd36778a37"
-  dependencies:
-    tslib "^1.7.1"
-
-"@angular/forms@5.2.0-beta.1":
-  version "5.2.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-5.2.0-beta.1.tgz#f32dabf92a22b9cdc46e2a50bbbf48f154f0c558"
   dependencies:
     tslib "^1.7.1"
 
@@ -145,12 +127,6 @@
 "@angular/platform-browser-dynamic@>=5.1.2":
   version "5.1.3"
   resolved "https://registry.yarnpkg.com/@angular/platform-browser-dynamic/-/platform-browser-dynamic-5.1.3.tgz#ad37e4dbd5251e7ea256ad9323fe11c848d04050"
-  dependencies:
-    tslib "^1.7.1"
-
-"@angular/platform-browser@5.2.0-beta.1":
-  version "5.2.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@angular/platform-browser/-/platform-browser-5.2.0-beta.1.tgz#44a971d9cfd3675c10f9924ffe0784b23a2e6bd3"
   dependencies:
     tslib "^1.7.1"
 
@@ -3016,12 +2992,12 @@ meepo-article@>=1.1.3:
     zone.js "0.8.4"
 
 meepo-autosize@>=1.0.9:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/meepo-autosize/-/meepo-autosize-1.2.0.tgz#a1dacddbfb9b283a714d09b0fea971e80ec5512e"
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/meepo-autosize/-/meepo-autosize-1.3.2.tgz#ba39a13b65e9d61fd9bea6e16a1e12695d83c09d"
   dependencies:
-    "@angular/common" "5.2.0-beta.1"
-    "@angular/core" "5.2.0-beta.1"
-    "@angular/platform-browser" "5.2.0-beta.1"
+    "@angular/common" ">=5.1.2"
+    "@angular/core" ">=5.1.2"
+    "@angular/platform-browser" ">=5.1.2"
     reflect-metadata "^0.1.10"
     rxjs "^5.5.5"
     zone.js "0.8.4"
@@ -3130,12 +3106,12 @@ meepo-icons@>=1.0.7:
     zone.js "0.8.4"
 
 meepo-jssdk@>=1.0.2:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/meepo-jssdk/-/meepo-jssdk-1.1.1.tgz#c170819eef6fb1710f3811e404ab04765cb0f1ba"
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/meepo-jssdk/-/meepo-jssdk-1.1.3.tgz#1b1965ef4dd659a65ca75cc86473507a03073a8c"
   dependencies:
-    "@angular/common" "5.2.0-beta.1"
-    "@angular/core" "5.2.0-beta.1"
-    "@angular/forms" "5.2.0-beta.1"
+    "@angular/common" ">=5.1.2"
+    "@angular/core" ">=5.1.2"
+    "@angular/forms" ">=5.1.2"
     meepo-axios ">=1.2.1"
     meepo-core ">=3.0.4"
     reflect-metadata "^0.1.10"
@@ -3217,8 +3193,8 @@ meepo-ua@>=1.0.0:
     zone.js "0.8.4"
 
 meepo-uploader@>=1.2.3:
-  version "1.6.2"
-  resolved "https://registry.yarnpkg.com/meepo-uploader/-/meepo-uploader-1.6.2.tgz#4d2be659cdb5b3ce09475fc8d8d95fb687d64f7d"
+  version "1.6.6"
+  resolved "https://registry.yarnpkg.com/meepo-uploader/-/meepo-uploader-1.6.6.tgz#5d46782d77289be06ccec0c3683379603a05a882"
   dependencies:
     "@angular/common" ">=5.1.2"
     "@angular/core" ">=5.1.2"
@@ -3230,7 +3206,7 @@ meepo-uploader@>=1.2.3:
     meepo-uuid ">=1.0.8"
     reflect-metadata "^0.1.10"
     rxjs "^5.5.0"
-    zone.js "^0.8.4"
+    zone.js "0.8.4"
 
 meepo-util@>=1.0.0:
   version "1.0.1"
@@ -5827,6 +5803,6 @@ zone.js@0.8.4:
   version "0.8.4"
   resolved "https://registry.yarnpkg.com/zone.js/-/zone.js-0.8.4.tgz#cc40ae5a1c879601c5ebba2096b5c80f0c4c3602"
 
-zone.js@^0.8.14, zone.js@^0.8.4:
+zone.js@^0.8.14:
   version "0.8.19"
   resolved "https://registry.yarnpkg.com/zone.js/-/zone.js-0.8.19.tgz#a4b522cd9e8b7b616a638c297d720d4c7f292f71"

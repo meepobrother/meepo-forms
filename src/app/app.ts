@@ -40,6 +40,7 @@ import { UuidModule } from 'meepo-uuid';
 import { MeepoBmapModule } from 'meepo-bmap';
 import { AutoSizeModule } from 'meepo-autosize';
 import { UploaderModule } from 'meepo-uploader';
+import { ReactiveFormsModule} from '@angular/forms';
 
 @NgModule({
     declarations: [
@@ -50,7 +51,8 @@ import { UploaderModule } from 'meepo-uploader';
         MeepoBmapModule,
         AutoSizeModule,
         UploaderModule,
-        UuidModule
+        UuidModule,
+        ReactiveFormsModule
     ],
     exports: [
         ...formsComponents

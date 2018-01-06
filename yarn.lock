@@ -3169,14 +3169,14 @@ meepo-minirefresh@>=1.3.2:
     zone.js "0.8.4"
 
 meepo-picker@>=1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/meepo-picker/-/meepo-picker-1.1.2.tgz#55a6da0ada61ac3e1478fe51c0bab50e5e2e1aef"
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/meepo-picker/-/meepo-picker-1.3.2.tgz#98f00ee3e3cc8e0f3416b674648c106d57c12d3c"
   dependencies:
-    "@angular/common" "5.2.0-beta.1"
-    "@angular/core" "5.2.0-beta.1"
-    "@angular/platform-browser" "5.2.0-beta.1"
-    meepo-uuid ">=1.1.1"
-    mobile-select ">=1.0.10"
+    "@angular/common" ">=5.1.2"
+    "@angular/core" ">=5.1.2"
+    "@angular/platform-browser" ">=5.1.2"
+    meepo-uuid ">=1.0.8"
+    mobile-select "^1.0.10"
     reflect-metadata "^0.1.10"
     rxjs "^5.5.5"
     zone.js "0.8.4"
@@ -3399,7 +3399,7 @@ mkdirp@0.5.x, "mkdirp@>=0.5 0", mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.0, mkd
   dependencies:
     minimist "0.0.8"
 
-mobile-select@>=1.0.10:
+mobile-select@^1.0.10:
   version "1.0.11"
   resolved "https://registry.yarnpkg.com/mobile-select/-/mobile-select-1.0.11.tgz#189b0127003bd3621a880980d41186fd7e707ad1"
 

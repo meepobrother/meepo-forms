@@ -45,6 +45,15 @@ import { AutoSizeModule } from 'meepo-autosize';
 import { UploaderModule } from 'meepo-uploader';
 import { ReactiveFormsModule} from '@angular/forms';
 
+console.log(UuidModule);
+console.log(MeepoBmapModule);
+console.log(AutoSizeModule);
+console.log(UploaderModule);
+console.log(ReactiveFormsModule);
+
+
+
+
 @NgModule({
     declarations: [
         ...formsComponents

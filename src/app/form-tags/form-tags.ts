@@ -22,6 +22,7 @@ export class FormTagsComponent implements OnInit {
             res.active = false
         })
         item.active = true;
+        console.log(item);
         this.onSelect.emit(item)
         this.cd.detectChanges();
     }

@@ -37,22 +37,11 @@ export const formsComponents = [
     FormTagsComponent
 ];
 
-console.log(formsComponents);
-
 import { UuidModule } from 'meepo-uuid';
 import { MeepoBmapModule } from 'meepo-bmap';
 import { AutoSizeModule } from 'meepo-autosize';
 import { UploaderModule } from 'meepo-uploader';
 import { ReactiveFormsModule} from '@angular/forms';
-
-console.log(UuidModule);
-console.log(MeepoBmapModule);
-console.log(AutoSizeModule);
-console.log(UploaderModule);
-console.log(ReactiveFormsModule);
-
-
-
 
 @NgModule({
     declarations: [
@@ -60,7 +49,6 @@ console.log(ReactiveFormsModule);
     ],
     imports: [
         CommonModule,
-        MeepoBmapModule,
         AutoSizeModule,
         UploaderModule,
         UuidModule,

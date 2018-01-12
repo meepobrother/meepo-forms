@@ -1,6 +1,6 @@
 {
     "name": "meepo-forms",
-    "version": "1.8.5",
+    "version": "3.0.1",
     "description": "forms for angular",
     "main": "./bundles/meepo.umd.js",
     "module": "./esm5/meepo.js",

@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+
 import { FormAddressComponent } from './form-address/form-address';
 import { FormRootComponent } from './form-root/form-root';
 import { FormRowComponent } from './form-row/form-row';
@@ -35,6 +36,8 @@ export const formsComponents = [
     isSelectDirective,
     FormTagsComponent
 ];
+
+console.log(formsComponents);
 
 import { UuidModule } from 'meepo-uuid';
 import { MeepoBmapModule } from 'meepo-bmap';

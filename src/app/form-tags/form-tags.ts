@@ -1,4 +1,4 @@
-import { Component, OnInit, forwardRef, Input, Output, EventEmitter, ChangeDetectorRef, ChangeDetectionStrategy } from '@angular/core';
+import { Component, OnInit, forwardRef, Input, Output, EventEmitter, ChangeDetectorRef, ChangeDetectionStrategy, OnDestroy } from '@angular/core';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
 
 export const EXE_COUNTER_VALUE_ACCESSOR: any = {
@@ -17,7 +17,7 @@ export const EXE_COUNTER_VALUE_ACCESSOR: any = {
         EXE_COUNTER_VALUE_ACCESSOR
     ]
 })
-export class FormTagsComponent implements ControlValueAccessor {
+export class FormTagsComponent implements ControlValueAccessor, OnDestroy {
     @Input() items: any[] = [];
     _model: any;
     set model(val) {
@@ -31,7 +31,13 @@ export class FormTagsComponent implements ControlValueAccessor {
         public cd: ChangeDetectorRef
     ) { }
 
-    ngOnInit() { }
+    ngOnInit() {
+        this.cd.reattach();
+    }
+
+    ngOnDestroy() {
+        this.cd.detach();
+    }
 
     select(item: any) {
         this.items.map(res => {
